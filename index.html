@@ -4,18 +4,11 @@ title: The Hacker Setup
 subheading: What do hackers use to get stuff done?
 ---
 
-<div class="home">
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-</div>
+<h2 class="person">{{post.person}}</h2>
+<p class="description">{{post.description}}</p>
+<p class="details">Posted <time datetime='{{post.date | date: "%Y-%m-%d"}}'>
+  {{post.date | date: "%b %d, %Y"}}</time> in 
+  {% assign categories=post.categories %}
+  {% include categories.html %}
+</p>
+{% endfor %}
