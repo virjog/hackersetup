@@ -1,7 +1,7 @@
 ---
 layout: default
 title: All of the interviews
-permalink: /interviews/index.html
+permalink: /hackersetup/interviews/index.html
 ---
 
 <ul id="interviews">
@@ -13,5 +13,4 @@ permalink: /interviews/index.html
 		<h2>{{post.person}}</h2>
 		<p class="description">{{post.description}}</p>
 		<p class="details">Posted <time datetime='{{post.date | date: "%Y-%m-%d"}}'>{{post.date | date: "%b %d, %Y"}}</time> in</p>
-	</li>
-</ul>
+	</li </ul>
