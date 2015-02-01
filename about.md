@@ -4,7 +4,7 @@ title: About The Hacker Setup
 permalink: /hackersetup/about/index.html
 ---
 
-<h2></h2>
+<h2>About</h2>
 <p>Inspired by <a href="http://usesthis.com/">The Setup</a>, The Hacker Setup is a collection of interviews about hackers and the tools they use to build.</p>
 
 <h3>Frequently Asked Questions</h3>
