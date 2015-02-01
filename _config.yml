@@ -1,3 +1,2 @@
 permalink: /interviews/:title.html
 exclude: ['hardware', 'software', 'README', '_drafts']
-gems: ['interview_generator', 'category_generator']
