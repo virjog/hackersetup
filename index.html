@@ -3,9 +3,25 @@ layout: default
 title: The Hacker Setup
 subheading: What do hackers use to get stuff done?
 ---
+{% for post in site.posts limit: 10 %}
+<div class="row-fluid">
+  <div class="span12">
+    <figure>
+        {% if forloop.first %}
+        <a href="" title='View an interview with {{post.person}}.'><img src='/images/portraits/{{post.slug}}.jpg' alt='{{post.person}}' width='500' height='335' class='portrait'></a>
+        {% else %}
+        <a href="" title='View an interview with {{post.person}}.'><img src='/images/portraits/{{post.slug}}.jpg' alt='{{post.person}}' width='500' height='335' class='thumbnail'></a>
+        {% endif %}
+      </figure>
 
-<h2 class="person">{{post.person}}</h2>
-<p class="description">{{post.description}}</p>
-<p class="details">Posted <time datetime='{{post.date | date: "%Y-%m-%d"}}'>
-  {{post.date | date: "%b %d, %Y"}}</time> in 
-</p>
+    <h2 class="person">{{post.person}}</h2>
+    <p class="description">{{post.description}}</p>
+    <p class="details">Posted <time datetime='{{post.date | date: "%Y-%m-%d"}}'>
+      {{post.date | date: "%b %d, %Y"}}</time> in 
+      {% assign categories=post.categories %}
+      {% include categories.html %}
+    </p>
+  </div>
+</div>
+{% endfor %}
+

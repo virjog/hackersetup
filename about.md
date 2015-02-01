@@ -1,11 +1,21 @@
 ---
-layout: page
-title: About
-permalink: /about/
+layout: default
+title: About The Hacker Setup
+permalink: /about/index.html
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+<h2>About</h2>
+<p>Inspired by <a href="http://usesthis.com/">The Setup</a>, The Hacker Setup is a collection of interviews about hackers and the tools they use to build.</p>
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+<h3>Frequently Asked Questions</h3>
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+<dl>
+	<dt>When are new interviews posted?</dt>
+	<dd>Every <strong>Monday</strong> and <strong>Friday</strong>.</dd>
+
+	<dt>Who runs this site?</dt>
+	<dd>Viral Jogani, a student at Rutgers University.</dd>
+
+	<dt>How do I get in touch with you</dt>
+	<dd>Send an email to <a href="mailto:viraljogani@gmail.com">viraljogani@gmail.com</a> or you can tweet to me <a href="http://twitter.com/virjog">@virjog</a>.</dd>
+</dl>
