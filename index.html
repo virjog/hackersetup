@@ -13,25 +13,25 @@ subheading: What do hackers use to get stuff done?
         {% else %}
         <a href="" title='View an interview with {{post.person}}.'><img src='{{site.baseurl}}/images/portraits/{{post.photo}}.jpg' alt='{{post.person}}' width='500' height='335' class='thumbnail'></a>
         {% else %}
-        <a href="" title='View an interview with {{post.person}}.'><img src='/images/portraits/{{post.slug}}.jpg' alt='{{post.person}}' width='500' height='335' class='thumbnail'></a>
+        <a href="" title='View an interview with {{post.person}}.'><img src='{{site.baseurl}}/images/portraits/{{post.photo}}.jpg' alt='{{post.person}}' width='500' height='335' class='thumbnail'></a>
         {% else %}
-        <a href="" title='View an interview with {{post.person}}.'><img src='/images/portraits/{{post.slug}}.jpg' alt='{{post.person}}' width='500' height='335' class='thumbnail'></a>
+        <a href="" title='View an interview with {{post.person}}.'><img src='{{site.baseurl}}/images/portraits/{{post.photo}}.jpg' alt='{{post.person}}' width='500' height='335' class='thumbnail'></a>
         {% else %}
-        <a href="" title='View an interview with {{post.person}}.'><img src='/images/portraits/{{post.slug}}.jpg' alt='{{post.person}}' width='500' height='335' class='thumbnail'></a>
+        <a href="" title='View an interview with {{post.person}}.'><img src='{{site.baseurl}}/images/portraits/{{post.photo}}.jpg' alt='{{post.person}}' width='500' height='335' class='thumbnail'></a>
         {% else %}
-        <a href="" title='View an interview with {{post.person}}.'><img src='/images/portraits/{{post.slug}}.jpg' alt='{{post.person}}' width='500' height='335' class='portrait'></a>
+        <a href="" title='View an interview with {{post.person}}.'><img src='{{site.baseurl}}/images/portraits/{{post.photo}}.jpg' alt='{{post.person}}' width='500' height='335' class='portrait'></a>
         {% else %}
-        <a href="" title='View an interview with {{post.person}}.'><img src='/images/portraits/{{post.slug}}.jpg' alt='{{post.person}}' width='500' height='335' class='thumbnail'></a>
+        <a href="" title='View an interview with {{post.person}}.'><img src='{{site.baseurl}}/images/portraits/{{post.photo}}.jpg' alt='{{post.person}}' width='500' height='335' class='thumbnail'></a>
         {% else %}
-        <a href="" title='View an interview with {{post.person}}.'><img src='/images/portraits/{{post.slug}}.jpg' alt='{{post.person}}' width='500' height='335' class='thumbnail'></a>
+        <a href="" title='View an interview with {{post.person}}.'><img src='{{site.baseurl}}/images/portraits/{{post.photo}}.jpg' alt='{{post.person}}' width='500' height='335' class='thumbnail'></a>
         {% else %}
-        <a href="" title='View an interview with {{post.person}}.'><img src='/images/portraits/{{post.slug}}.jpg' alt='{{post.person}}' width='500' height='335' class='thumbnail'></a>
+        <a href="" title='View an interview with {{post.person}}.'><img src='{{site.baseurl}}/images/portraits/{{post.photo}}.jpg' alt='{{post.person}}' width='500' height='335' class='thumbnail'></a>
         {% else %}
-        <a href="" title='View an interview with {{post.person}}.'><img src='/images/portraits/{{post.slug}}.jpg' alt='{{post.person}}' width='500' height='335' class='thumbnail'></a>
+        <a href="" title='View an interview with {{post.person}}.'><img src='{{site.baseurl}}/images/portraits/{{post.photo}}.jpg' alt='{{post.person}}' width='500' height='335' class='thumbnail'></a>
         {% endif %}
       </figure>
 
-    <h2 class="person">{{post.person}}</h2>
+    <a href="{{site.baseurl/hackers/{{post.photo}}.html"><h2 class="person">{{post.person}}</h2></a>
     <p class="description">{{post.description}}</p>
     <p class="details">Posted <time datetime='{{post.date | date: "%Y-%m-%d"}}'>
       {{post.date | date: "%b %d, %Y"}}</time> in 

@@ -1,11 +1,11 @@
 ---
 layout: default
-permalink: /hackers/index.html
+permalink: /hackers/{{post.photo}}.html
 ---
 <div class="post">
 
   <header class="post-header">
-    <a href="{{site.baseurl}}/hackers/{{post.photo}}.html"><h1 class="post-title">{{ post.title }}</h1></a>
+    <h1 class="post-title">{{ post.title }}</h1>
     <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</p>
   </header>
 
