@@ -1,3 +1,4 @@
 url: "http://virjog.github.io"
+permalink: hackers/:title.html
 exclude: ['hardware', 'software', 'README', '_drafts']
-baseurl: "/hackersetup"
+baseurl: "http://virjog.github.io/hackersetup"
