@@ -9,9 +9,9 @@ subheading: What do hackers use to get stuff done?
   <div class="span12">
     <figure>
         {% if forloop.first %}
-        <a href="" title='View an interview with {{post.person}}.'><img src='{{site.baseurl}}/images/portraits/{{post.slug}}.jpg' alt='{{post.person}}' width='500' height='335' class='portrait'></a>
+        <a href="" title='View an interview with {{post.person}}.'><img src='{{site.baseurl}}/images/portraits/{{post.photo}}.jpg' alt='{{post.person}}' width='500' height='335' class='portrait'></a>
         {% else %}
-        <a href="" title='View an interview with {{post.person}}.'><img src='{{site.baseurl}}/images/portraits/{{post.slug}}.jpg' alt='{{post.person}}' width='500' height='335' class='thumbnail'></a>
+        <a href="" title='View an interview with {{post.person}}.'><img src='{{site.baseurl}}/images/portraits/{{post.photo}}.jpg' alt='{{post.person}}' width='500' height='335' class='thumbnail'></a>
         {% else %}
         <a href="" title='View an interview with {{post.person}}.'><img src='/images/portraits/{{post.slug}}.jpg' alt='{{post.person}}' width='500' height='335' class='thumbnail'></a>
         {% else %}
