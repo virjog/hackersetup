@@ -29,6 +29,10 @@ a:hover img.icon, a:hover img.portrait, a:hover img.thumbnail {
 opacity: 0.9;
 }
 
+a#title_link {
+	text-decoration: none;
+}
+
 article.contents ul, article.contents ol {
 list-style: disc;
 padding: 10px 25px;
